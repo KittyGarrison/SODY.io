@@ -1,3 +1,4 @@
 RewriteEngine on
 RewriteCond %{REQUEST_URI} /pagename.php$
 RewriteRule .* /otherpage.html [L]
+ErrorDocument 404 /notfound.html

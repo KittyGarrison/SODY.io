@@ -1,6 +1,11 @@
-/* ------------------------------ filter work -------------------------- */
+
 body {
     color: #fff;
+}
+
+.full {
+    height: 100%;
+    width: 100%;
 }
 
 .centered {

@@ -11,6 +11,28 @@ body {
 .centered {
     text-align: center;
 }
+
+header {
+    background: url('../img/welcome.jpg') no-repeat fixed center center cover transparent; 
+    margin-top: -5.5%;
+}
+
+#services {
+    background-color: rgb(23,194,164);
+}
+
+#services p {
+    font-size: 12pt
+}
+
+.margin-btm-5 {
+    margin-bottom: 5%;
+}
+
+.dark-text {
+    color: #2c3e50;
+}
+
 #filter-works ul {
     list-style:none;
     padding:0;
@@ -50,25 +72,4 @@ body {
 #filter-works ul li.active a{
     color:#fff;
     background:#2C3E50;
-}
-
-header {
-    background: url('../img/welcome.jpg') no-repeat fixed center center cover transparent; 
-    margin-top: -5.5%;
-}
-
-#services {
-    background-color: rgb(23,194,164);
-}
-
-#services p {
-    font-size: 12pt
-}
-
-.margin-btm-5 {
-    margin-bottom: 5%;
-}
-
-.dark-text {
-    color: #2c3e50;
 }
